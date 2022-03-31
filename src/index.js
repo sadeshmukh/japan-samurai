@@ -10,15 +10,12 @@ ReactDOM.render(
   <div>
     <Router>
       <Header />
-      <div className="pt-3">
-        TODO: finalize px-5 (if full-width sections not required)
-        <Routes>
-          <Route path="/" element={<Pages.Home />} />
-          <Route path="/beliefs" element={<Pages.Beliefs />}></Route>
-          <Route path="/weapons" element={<Pages.Weapons />}></Route>
-          <Route path="/clothing" element={<Pages.Clothing />}></Route>
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Pages.Home />} />
+        <Route path="/beliefs" element={<Pages.Beliefs />}></Route>
+        <Route path="/weapons" element={<Pages.Battle />}></Route>
+        <Route path="/clothing" element={<Pages.Clothing />}></Route>
+      </Routes>
 
       <Footer />
     </Router>

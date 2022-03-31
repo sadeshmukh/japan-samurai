@@ -1,6 +1,6 @@
 import Home from "./Pages/Home.jsx";
 import Beliefs from "./Pages/Beliefs.jsx";
 import Clothing from "./Pages/Clothing.jsx";
-import Weapons from "./Pages/Weapons.jsx";
+import Battle from "./Pages/Battle.jsx";
 
-export default { Home, Beliefs, Clothing, Weapons };
+export default { Home, Beliefs, Clothing, Battle };
