@@ -1,17 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Pages from "./PageList";
+import Header from "./Header";
+import Footer from "./Footer";
+import "./index.scss";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  <div>
+    <Router>
+      <Header />
+      <div className="pt-3">
+        TODO: finalize px-5 (if full-width sections not required)
+        <Routes>
+          <Route path="/" element={<Pages.Home />} />
+          <Route path="/beliefs" element={<Pages.Beliefs />}></Route>
+          <Route path="/weapons" element={<Pages.Weapons />}></Route>
+          <Route path="/clothing" element={<Pages.Clothing />}></Route>
+        </Routes>
+      </div>
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+      <Footer />
+    </Router>
+  </div>,
+  document.getElementById("root")
+);
