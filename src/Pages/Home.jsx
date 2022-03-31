@@ -26,17 +26,19 @@ function Home() {
               <img src="https://dummyimage.com/200x400/000/fff" />
             </Col>
             <Col>
-              In culture, samurai have been depicted as fearless, fearsome,
-              loyal, noble warriors who fight to the death with their katana.
-              Samurai were generally assigned to tasks such as guarding
-              territory, fighting enemies of the government, and defending
-              against bandits. However, in reality, samurai were much more.
-              Though they were expertly trained in martial arts, archery, and
-              horseback riding, samurai in times of peace were also expert
-              diplomats, tax collectors, artists, and scholars. They were very
-              intellectual, skilled in the art of Bun (learning). In fact, the
-              masters to which samurai were bound - daimyo - were themselves
-              samurai who were vassals of the shogun.
+              <p>
+                In culture, samurai have been depicted as fearless, fearsome,
+                loyal, noble warriors who fight to the death with their katana.
+                Samurai were generally assigned to tasks such as guarding
+                territory, fighting enemies of the government, and defending
+                against bandits. However, in reality, samurai were much more.
+                Though they were expertly trained in martial arts, archery, and
+                horseback riding, samurai in times of peace were also expert
+                diplomats, tax collectors, artists, and scholars. They were very
+                intellectual, skilled in the art of Bun (learning). In fact, the
+                masters to which samurai were bound - daimyo - were themselves
+                samurai who were vassals of the shogun.
+              </p>
             </Col>
           </Row>
         </Container>
