@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Tilt from "react-tilt";
 
 function Clothing() {
   return (
@@ -22,10 +23,12 @@ function Clothing() {
         <Container className="pt-5">
           <Row>
             <Col xs={12} lg={3} className="text-center mb-4">
-              <img
-                src="https://i.imgur.com/MsYtve9.png"
-                className="lg-3 content-image"
-              />
+              <Tilt>
+                <img
+                  src="https://i.imgur.com/MsYtve9.png"
+                  className="lg-3 content-image"
+                />
+              </Tilt>
             </Col>
             <Col className="">
               <p>

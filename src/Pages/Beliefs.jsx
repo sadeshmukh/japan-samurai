@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Tilt from "react-tilt";
 
 function Beliefs() {
   return (
@@ -17,15 +18,17 @@ function Beliefs() {
         </a>
       </section>
       <hr></hr>
-      <section id="bushido">
+      <section id="bushido" className="p-5">
         <h2 className="text-center pt-3">Bushido</h2>
         <Container className="pt-5">
           <Row>
             <Col xs={12} lg={3} className="text-center mb-4">
+              {/* <Tilt className="text-center"> */}
               <img
                 src="https://dummyimage.com/200x400/000/fff"
                 className="content-image"
               />
+              {/* </Tilt> */}
             </Col>
             <Col>
               <p>
@@ -48,12 +51,12 @@ function Beliefs() {
         </Container>
       </section>
       <hr></hr>
-      <section id="religion">
-        <h2 className="text-center pt-3">Religion</h2>
+      <section id="zen" className="bg-dark p-5">
+        <h2 className="text-center pt-3 text-light">Zen</h2>
         <Container className="pt-5">
           <Row>
             <Col>
-              <p>
+              <p className="text-light">
                 Religion complemented Bushido, their code of honor. For this
                 reason, most samurai preferred Zen Buddhism, an adapted form of
                 Buddhism that prioritized discipline, acceptance of death, and
@@ -62,11 +65,58 @@ function Beliefs() {
                 Confucianism and the native Japan Shinto gods.
               </p>
             </Col>
+            <Col xs={12} lg={6} className="text-center mb-4">
+              <Tilt
+                className="text-center"
+                options={{
+                  reverse: true,
+                  max: 50,
+                  scale: 1,
+                }}
+              >
+                <img
+                  src="https://i.imgur.com/6v1P5qe.jpg"
+                  className="content-image rounded w-100"
+                />
+              </Tilt>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      <hr></hr>
+      <section id="shinto" className="p-5">
+        <Container>
+          <h2 className="text-center pt-3">Shinto</h2>
+          <Row>
             <Col xs={12} lg={3} className="text-center mb-4">
               <img
                 src="https://dummyimage.com/200x400/000/fff"
                 className="content-image"
               />
+            </Col>
+            <Col>
+              <p>
+                Shinto is the original system of belief in Japan, and predates
+                all historical records. Shinto revolves around what makes
+                Japanese land Japanese: namely, the land and weather. Shinto
+                recognizes nature as <i>kami</i>, divine spirits, in everything:
+                waterfalls, grass, mountains, you name it. They would honor
+                nature by placing shrines and garlands to recognize it. New
+                religions introduced to Japan incorporated Shinto, allowing
+                people to convert to these religions without sacrificing their
+                held beliefs.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12} className="bg-warning rounded p-3 m-4 opacity-75">
+              <p>
+                <b>Did you know?</b> In Shinto belief, the first emperor,
+                (grandson of <i>Amaterasu</i>, the sun goddess) was given a
+                sword, pendant, and bronze mirror as symbols of the emperor.
+                Today, Japan still has an emperor, who still carries these three
+                items as symbols of his power.
+              </p>
             </Col>
           </Row>
         </Container>

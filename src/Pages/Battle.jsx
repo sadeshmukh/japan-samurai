@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Tilt from "react-tilt";
 
 function Weapons() {
   return (
@@ -20,9 +21,6 @@ function Weapons() {
         <h2 className="text-center pt-3">Katana</h2>
         <Container>
           <Row>
-            <Col xs={12} lg={3} className="text-center mb-4">
-              <img src="https://dummyimage.com/200x400/000/fff" />
-            </Col>
             <Col>
               <p>
                 Samurai placed great importance in the weapons they carried, the
@@ -43,19 +41,83 @@ function Weapons() {
                 represented their soul, samurai took great lengths to keep their
                 blades safe and in good repair.
               </p>
-              sidebar: interesting fact, kept katana with baby to bond |
-              sidebar: why blade was curved
+              TODO sidebar: why blade was curved
             </Col>
+            <Col xs={12} lg={3} className="text-center mb-4">
+              <img
+                src="https://dummyimage.com/200x400/000/fff"
+                className="content-image"
+              />
+            </Col>
+          </Row>
+          <Row>
             <Col xs={12} className="bg-warning rounded p-3 m-4 opacity-75">
               <p>
-                <b>Did you know?</b> Newborn samurai would have their katana
+                💡 <b>Did you know?</b> Newborn samurai would have their katana
                 placed with them as early as possible so they could bond.
               </p>
             </Col>
           </Row>
         </Container>
       </section>
-      <section id="other-weapons"></section>
+      <section id="other-weapons">
+        <h2 className="text-center pt-3">Other Weapons</h2>
+        <Container>
+          <Row>
+            <Col xs={12} lg={3} className="text-center mb-4">
+              <Tilt>
+                <img
+                  src="https://i.imgur.com/i67eev9.png"
+                  className="content-image"
+                />
+              </Tilt>
+            </Col>
+            <Col>
+              <p>
+                Though the most famous of the samurai weapons was the katana,
+                they used many other weapons, including the longbow, or{" "}
+                <i>yumi</i>. They were generally around 8 feet tall, and made of
+                wood, laminated with bamboo. Initially, bows were used for
+                hunting, though they later began to be used for battles. Samurai
+                took great pride in their archery: they would practice for hours
+                to perfect their archery on horseback. Their arrows were also
+                perforated, which created a whistling sound that was believed to
+                call the <i>kami</i> (Shinto nature spirits) to witness their
+                great deeds. They used varied arrows, some of which would pierce
+                through armor, knock someone out (to take as prisoner), or kill
+                horses to disable cavalry.
+              </p>
+            </Col>
+          </Row>
+          <Row className="mt-4">
+            <Col>
+              <p>
+                Samurai also used a variety of other daggers, the two most
+                prominent of which were the <i>wakizashi</i> and the{" "}
+                <i>tanto</i> . Neither blade was used more frequently than the
+                katana, a samurai’s life and soul, but they were both potent
+                backup weapons. They were used for close quarters fighting, when
+                a katana was too large to be used in a small space. It was also
+                used if required at a friend’s house, the only time samurai were
+                without their katana. They were both short swords, with
+                differing lengths depending on their needs. The multiple blades
+                were also a status symbol, since samurai were the only ones
+                allowed to carry more than one blade. The set of the wakizashi
+                and katana made a pair called the <i>daisho</i>, which all
+                samurai carried.
+              </p>
+            </Col>
+            <Col xs={12} lg={3} className="text-center mb-4">
+              <Tilt>
+                <img
+                  src="https://imgur.com/lI1TtIj.png"
+                  className="w-100 content-image"
+                />
+              </Tilt>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </React.Fragment>
   );
 }

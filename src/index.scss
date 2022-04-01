@@ -57,8 +57,20 @@ b {
 .down-chevron {
   width: 30px;
   height: 30px;
-  margin-top: 275px;
+  margin-top: 25vh;
   filter: invert(100%);
+}
+
+@media (max-height: 725px) {
+  .down-chevron {
+    margin-top: 20vh;
+  }
+}
+
+@media (max-height: 650px) {
+  .down-chevron {
+    margin-top: 15vh;
+  }
 }
 
 .projnav {
