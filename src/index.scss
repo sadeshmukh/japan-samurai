@@ -6,7 +6,7 @@ body {
 }
 
 footer {
-  background-color: #cccccc;
+  font-size: 14pt;
 }
 
 hr {
@@ -80,6 +80,10 @@ b {
 
 .samurai-armor {
   width: 50%;
+}
+
+.content-image {
+  width: 75%;
 }
 
 @include media-breakpoint-down(md) {

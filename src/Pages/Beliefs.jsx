@@ -17,37 +17,30 @@ function Beliefs() {
           ></img>
         </a>
       </section>
+
       <hr></hr>
       <section id="bushido" className="p-5">
         <h2 className="text-center pt-3">Bushido</h2>
         <Container className="pt-5">
-          <Row>
-            <Col xs={12} lg={3} className="text-center mb-4">
-              {/* <Tilt className="text-center"> */}
-              <img
-                src="https://dummyimage.com/200x400/000/fff"
-                className="content-image"
-              />
-              {/* </Tilt> */}
-            </Col>
-            <Col>
-              <p>
-                Samurai lived (and died) by their code of honor, <i>Bushido</i>,
-                which is literally translated as “warrior” (<i>bushi</i>) “way”
-                (<i>do</i>). Samurai believed in a cycle of rebirth, and would
-                accept death, believing good actions in a life carried on to the
-                next life. In fact, if a samurai failed a task set by a master,
-                lost their <a href="/Weapons#katana">katana</a> (their soul), or
-                got disgraced in public, they would commit a painful ritual
-                suicide called <i>seppuku</i> (belly cutting) to atone for their
-                failure and start a new cycle. Samurai were sworn to their
-                masters, and when their master died, all samurai pledged to that
-                master would commit a group suicide called <i>junshi</i>, since
-                a samurai served their master for life. Their code of honor
-                governed their entire lives and how they lived.
-              </p>
-            </Col>
-          </Row>
+          <img
+            src="https://i.imgur.com/ijsAZ1f.png"
+            className="content-image rounded w-25 float-end m-3"
+          />
+          <p>
+            Samurai lived (and died) by their code of honor, <i>Bushido</i>,
+            which is literally translated as “warrior” (<i>bushi</i>) “way” (
+            <i>do</i>). Samurai believed in a cycle of rebirth, and would accept
+            death, believing good actions in a life carried on to the next life.
+            In fact, if a samurai failed a task set by a master, lost their{" "}
+            <a href="/Weapons#katana">katana</a> (their soul), or got disgraced
+            in public, they would commit a painful ritual suicide called{" "}
+            <i>seppuku</i> (belly cutting) to atone for their failure and start
+            a new cycle. Samurai were sworn to their masters, and when their
+            master died, all samurai pledged to that master would commit a group
+            suicide called <i>junshi</i>, since a samurai served their master
+            for life. Their code of honor governed their entire lives and how
+            they lived.
+          </p>
         </Container>
       </section>
       <hr></hr>
@@ -76,7 +69,7 @@ function Beliefs() {
               >
                 <img
                   src="https://i.imgur.com/6v1P5qe.jpg"
-                  className="content-image rounded w-100"
+                  className="content-image rounded"
                 />
               </Tilt>
             </Col>
@@ -89,10 +82,12 @@ function Beliefs() {
           <h2 className="text-center pt-3">Shinto</h2>
           <Row>
             <Col xs={12} lg={3} className="text-center mb-4">
-              <img
-                src="https://dummyimage.com/200x400/000/fff"
-                className="content-image"
-              />
+              <Tilt>
+                <img
+                  src="https://i.imgur.com/t7YUuiQ.jpg"
+                  className="content-image rounded"
+                />
+              </Tilt>
             </Col>
             <Col>
               <p>
@@ -109,15 +104,17 @@ function Beliefs() {
             </Col>
           </Row>
           <Row>
-            <Col xs={12} className="bg-warning rounded p-3 m-4 opacity-75">
-              <p>
-                <b>Did you know?</b> In Shinto belief, the first emperor,
-                (grandson of <i>Amaterasu</i>, the sun goddess) was given a
-                sword, pendant, and bronze mirror as symbols of the emperor.
-                Today, Japan still has an emperor, who still carries these three
-                items as symbols of his power.
-              </p>
-            </Col>
+            <Tilt options={{ axis: "x" }}>
+              <Col xs={12} className="bg-warning rounded p-3 m-4 opacity-75">
+                <p>
+                  💡 <b>Did you know?</b> In Shinto belief, the first emperor,
+                  (grandson of <i>Amaterasu</i>, the sun goddess, shown above)
+                  was given a sword, pendant, and bronze mirror as symbols of
+                  the emperor. Today, Japan still has an emperor, who still
+                  carries these three items as symbols of his power.
+                </p>
+              </Col>
+            </Tilt>
           </Row>
         </Container>
       </section>

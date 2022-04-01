@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { Col, Container, Row } from "react-bootstrap";
+import Tilt from "react-tilt";
 
 function Home() {
   return (
@@ -23,10 +24,12 @@ function Home() {
         <Container>
           <Row>
             <Col xs={12} lg={3} className="text-center mb-4">
-              <img
-                src="https://dummyimage.com/200x400/000/fff"
-                className="content-image"
-              />
+              <Tilt>
+                <img
+                  src="https://i.imgur.com/EZ3X7Pn.jpg"
+                  className="content-image rounded"
+                />
+              </Tilt>
             </Col>
             <Col>
               <p>

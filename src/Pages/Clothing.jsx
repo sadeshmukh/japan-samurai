@@ -46,7 +46,6 @@ function Clothing() {
                 pants.
               </p>
               {}
-              TODO: Labeled Samurai Diagram
             </Col>
           </Row>
         </Container>
