@@ -15,28 +15,15 @@ function ProjectNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavDropdown
-              title="Life"
-              menuVariant="dark"
-              id="projnavdropdown"
-              className="mx-3"
-            >
-              <NavDropdown.Item>
-                <NavLink to="/beliefs" className="nav-link">
-                  Beliefs
-                </NavLink>
-              </NavDropdown.Item>
-              <NavDropdown.Item>
-                <NavLink to="/weapons" className="nav-link ">
-                  Weapons
-                </NavLink>
-              </NavDropdown.Item>
-              <NavDropdown.Item>
-                <NavLink to="/clothing" className="nav-link">
-                  Clothing
-                </NavLink>
-              </NavDropdown.Item>
-            </NavDropdown>
+            <NavLink to="/beliefs" className="nav-link">
+              Beliefs
+            </NavLink>
+            <NavLink to="/weapons" className="nav-link ">
+              Battle
+            </NavLink>
+            <NavLink to="/clothing" className="nav-link">
+              Clothing
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
