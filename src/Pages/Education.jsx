@@ -86,12 +86,12 @@ function Education() {
             </Col>
             <Col>
               <p>
-                Up-and-growing samurai would start training at the age of 3,
-                being given a real sword around the age of 6. Samurai placed
-                much importance on strengthening their body, mind, and spirit.
-                Training was given irrespective of gender, though women were
-                found on the battlefield less often. Samurai would spend much of
-                their time training their archery with the{" "}
+                Up-and-growing samurai would start training at the age of 3. By
+                the time they were 6, they would have a real sword. Samurai
+                placed much importance on strengthening their body, mind, and
+                spirit. Training was given irrespective of gender, though women
+                were found on the battlefield less often. Samurai would spend
+                much of their time training their archery with the{" "}
                 <a href="/battle#yumi">yumi</a>, striking and parrying with the
                 katana, wielding their <a href="/battle#blades">wakizashi</a>{" "}
                 and other short swords, and other non-weapon martial arts.
