@@ -6,6 +6,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
 import "./index.scss";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
 ReactDOM.render(
   <div>
@@ -25,3 +26,5 @@ ReactDOM.render(
   </div>,
   document.getElementById("root")
 );
+
+serviceWorkerRegistration.register();
