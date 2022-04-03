@@ -7,7 +7,7 @@ function Beliefs() {
     <React.Fragment>
       <section
         className="title-section text-center"
-        style={{ backgroundImage: "url(https://i.imgur.com/BCGsTO4.png)" }}
+        style={{ backgroundImage: "url(https://i.imgur.com/BCGsTO4l.png)" }}
       >
         <h1 className="text-center text-white pt-5">Beliefs</h1>
         <a href="#bushido">
@@ -104,17 +104,15 @@ function Beliefs() {
             </Col>
           </Row>
           <Row>
-            <Tilt options={{ axis: "x" }}>
-              <Col xs={12} className="bg-warning rounded p-3 m-4 opacity-75">
-                <p>
-                  💡 <b>Did you know?</b> In Shinto belief, the first emperor,
-                  (grandson of <i>Amaterasu</i>, the sun goddess, shown above)
-                  was given a sword, pendant, and bronze mirror as symbols of
-                  the emperor. Today, Japan still has an emperor, who still
-                  carries these three items as symbols of his power.
-                </p>
-              </Col>
-            </Tilt>
+            <Col xs={12} className="bg-warning rounded p-3 m-4 opacity-75">
+              <p>
+                💡 <b>Did you know?</b> In Shinto belief, the first emperor,
+                (grandson of <i>Amaterasu</i>, the sun goddess, shown above) was
+                given a sword, pendant, and bronze mirror as symbols of the
+                emperor. Today, Japan still has an emperor, who still carries
+                these three items as symbols of his power.
+              </p>
+            </Col>
           </Row>
         </Container>
       </section>
