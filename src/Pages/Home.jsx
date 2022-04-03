@@ -10,7 +10,7 @@ function Home() {
     <React.Fragment>
       <section
         className="title-section text-center"
-        style={{ backgroundImage: "url(https://i.imgur.com/BFXP88Fl.png)" }}
+        style={{ backgroundImage: "url(https://i.imgur.com/BFXP88Fh.png)" }}
       >
         <h1 className="text-center text-white pt-5">Samurai</h1>
         <a href="#home-timeline">

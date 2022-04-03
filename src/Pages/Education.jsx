@@ -7,7 +7,7 @@ function Education() {
     <React.Fragment>
       <section
         className="title-section text-center"
-        style={{ backgroundImage: "url(https://i.imgur.com/sku49gEl.jpg)" }}
+        style={{ backgroundImage: "url(https://i.imgur.com/RJdsztuh.jpg)" }}
       >
         <h1 className="text-center text-white pt-5">Education</h1>
         <a href="#edu-overview">
@@ -112,7 +112,7 @@ function Education() {
             <Col xs={12} lg={3} className="text-center mb-4">
               <Tilt>
                 <img
-                  src="https://i.imgur.com/RJdsztu.jpg"
+                  src="https://i.imgur.com/sku49gEm.jpg"
                   className="content-image rounded w-100"
                 />
               </Tilt>

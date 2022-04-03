@@ -7,7 +7,7 @@ function Beliefs() {
     <React.Fragment>
       <section
         className="title-section text-center"
-        style={{ backgroundImage: "url(https://i.imgur.com/BCGsTO4l.png)" }}
+        style={{ backgroundImage: "url(https://i.imgur.com/BCGsTO4h.png)" }}
       >
         <h1 className="text-center text-white pt-5">Beliefs</h1>
         <a href="#bushido">
