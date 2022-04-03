@@ -7,7 +7,7 @@ function Education() {
     <React.Fragment>
       <section
         className="title-section text-center"
-        style={{ backgroundImage: "url(https://i.imgur.com/RJdsztuh.jpg)" }}
+        style={{ backgroundImage: "url(https://i.imgur.com/RJdsztu.jpg)" }}
       >
         <h1 className="text-center text-white pt-5">Education</h1>
         <a href="#edu-overview">

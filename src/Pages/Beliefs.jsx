@@ -7,7 +7,7 @@ function Beliefs() {
     <React.Fragment>
       <section
         className="title-section text-center"
-        style={{ backgroundImage: "url(https://i.imgur.com/BCGsTO4h.png)" }}
+        style={{ backgroundImage: "url(https://i.imgur.com/BCGsTO4.png)" }}
       >
         <h1 className="text-center text-white pt-5">Beliefs</h1>
         <a href="#bushido">
@@ -32,7 +32,7 @@ function Beliefs() {
             <i>do</i>). Samurai believed in a cycle of rebirth, and would accept
             death, believing good actions in a life carried on to the next life.
             In fact, if a samurai failed a task set by a master, lost their{" "}
-            <a href="/Weapons#katana">katana</a> (their soul), or got disgraced
+            <a href="/battle#katana">katana</a> (their soul), or got disgraced
             in public, they would commit a painful ritual suicide called{" "}
             <i>seppuku</i> (belly cutting) to atone for their failure and start
             a new cycle. Samurai were sworn to their masters, and when their

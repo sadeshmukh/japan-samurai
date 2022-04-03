@@ -20,7 +20,7 @@ function ProjectNavbar() {
             <NavLink to="/beliefs" className="nav-link">
               Beliefs
             </NavLink>
-            <NavLink to="/weapons" className="nav-link ">
+            <NavLink to="/battle" className="nav-link ">
               Battle
             </NavLink>
             <NavLink to="/clothing" className="nav-link">

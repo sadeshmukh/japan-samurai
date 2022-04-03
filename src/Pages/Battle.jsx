@@ -7,7 +7,7 @@ function Weapons() {
     <React.Fragment>
       <section
         className="title-section text-center"
-        style={{ backgroundImage: "url(https://i.imgur.com/kZ7d4i8h.png)" }}
+        style={{ backgroundImage: "url(https://i.imgur.com/kZ7d4i8.png)" }}
       >
         <h1 className="text-center text-white pt-5">Battle</h1>
         <a href="#katana">

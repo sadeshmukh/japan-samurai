@@ -15,7 +15,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<Pages.Home />} />
         <Route path="/beliefs" element={<Pages.Beliefs />} />
-        <Route path="/weapons" element={<Pages.Battle />} />
+        <Route path="/battle" element={<Pages.Battle />} />
         <Route path="/clothing" element={<Pages.Clothing />} />
         <Route path="/education" element={<Pages.Education />} />
       </Routes>

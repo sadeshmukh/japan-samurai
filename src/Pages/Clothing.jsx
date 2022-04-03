@@ -7,7 +7,7 @@ function Clothing() {
     <React.Fragment>
       <section
         className="title-section text-center"
-        style={{ backgroundImage: "url(https://i.imgur.com/12T7nPOh.png)" }}
+        style={{ backgroundImage: "url(https://i.imgur.com/12T7nPO.png)" }}
       >
         <h1 className="text-center text-white pt-5">Clothing</h1>
         <a href="#armor">
