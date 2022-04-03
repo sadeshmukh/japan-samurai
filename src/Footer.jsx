@@ -1,3 +1,5 @@
+import React from "react";
+
 function Footer() {
   return (
     <footer className="text-center text-light bg-dark p-3">

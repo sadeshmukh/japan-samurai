@@ -1,3 +1,4 @@
+import React from "react";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import Tilt from "react-tilt";
@@ -24,6 +25,9 @@ function ProjectNavbar() {
             </NavLink>
             <NavLink to="/clothing" className="nav-link">
               Clothing
+            </NavLink>{" "}
+            <NavLink to="/education" className="nav-link">
+              Education
             </NavLink>
           </Nav>
         </Navbar.Collapse>
